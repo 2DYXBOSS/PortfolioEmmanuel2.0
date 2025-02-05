@@ -1,0 +1,75 @@
+
+  /* footer {
+    background-color: black;
+    color: #343a40;
+  } */
+  input , textarea{
+    background-color: rgba(128, 128, 128, 0.159)!important;
+    color: white!important;
+    outline: none!important;
+    
+  }
+
+  input::placeholder , textarea::placeholder{
+    color: white;
+  }
+  input , textarea:focus {
+    border-color: none!important;
+    box-shadow: none!important;
+  }
+  footer h5 {
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 1000px) {
+    .recaps {
+        color: white;
+        padding-bottom: 10px;
+        padding-top: 50px;
+      }
+    .recapss {
+        padding-top: 150px;
+      }
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  /* footer .card {
+    border-radius: 8px;
+    background: #ffffff;
+  } */
+  .form-control {
+    border-radius: 0!important;
+  } 
+  footer .btn-primary {
+    background-color: blue;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer .btn-primary:hover {
+    background-color: blue;
+  }
+  
+
+  .btn-custom {
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white!important;
+}
+  .btn-custom img{
+    filter: invert();
+}
+.btn-custom:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black!important;
+}
+.btn-custom:hover img{
+    filter: none;
+}

@@ -1,0 +1,205 @@
+
+
+<div style="width: 100%;display: flex;justify-content: center;min-height: 100vh;position: relative;background-color: black;">
+    <div class="container " >
+       <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent ">
+        <div class="container p-0 ">
+            <a class="navbar-brand" href="#">DEV.MOKO</a>
+            <button class="navbar-toggler" style="outline: none!important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" >Acceuil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio#about" >A propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio#experience"  >Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio#formation" >Formations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio#" >Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio#recommendations" >Recommandation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio#Contacts" >Contacts</a></li>
+                </ul>
+                
+            </div>
+            
+        </div>
+    </nav> -->
+    <nav
+    class="navbar navbar-expand-lg navbar-light bg-transparent navbars " style="flex-direction: column;"
+    [class.navbar-scrolled]="isScrolled"
+  >
+    
+    <div class="container p-0">
+      <a id="momlofgdh" style="color: white;" href="portfolio" > < depane / > </a>
+      
+      <!-- <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Acceuil</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio#about">A propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio#formation">Formations</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio#recommendations">Recommandation</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio#Contacts">Contacts</a></li>
+        </ul>
+      </div> -->
+
+      <nav class="navbar navbar-expand-lg navbar-light" [ngClass]="{'scrolled': isScrolled}">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  [ngClass]="{'active': activeLink === 'home'}" 
+                  href="portfolio#home">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  [ngClass]="{'active': activeLink === 'about'}" 
+                  href="portfolio#about">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  [ngClass]="{'active': activeLink === 'experience'}" 
+                  href="portfolio#experience">Expérience</a>
+              </li>
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  [ngClass]="{'active': activeLink === 'formation'}" 
+                  href="portfolio#formation">Formations</a>
+              </li>
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  [ngClass]="{'active': activeLink === 'projet'}" 
+                  href="portfolio#projet">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  [ngClass]="{'active': activeLink === 'recommendations'}" 
+                  href="portfolio#recommendations">Recommandations</a>
+              </li>
+              <li class="nav-item">
+                <a 
+                  class="nav-link" 
+                  [ngClass]="{'active': activeLink === 'Contacts'}" 
+                  href="portfolio#Contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    </div>
+  </nav>
+  
+    <!-- Header Section -->
+    <section class="header " >
+        <div class="container p-0" >
+            <div class="acceuil" >
+                <div class="acceuilBien">
+                    <div class="reseua">
+                        <a href="https://www.linkedin.com/in/prince-ange-emmanuel-dedy-394270253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                                
+                            <div class="cercle4">
+                                <img src="assets/images/linkedin.png" class="imgz2"  width="25px" height="25px" alt="" >
+                                
+                                <div class="facp4">
+                                   
+                                    
+                                    <img src="assets/images/linkedin.png" style="filter: invert();" width="25px" height="25px" alt="" id="imges2">
+                                    <h1 style="color: white;font-size: 0.9rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Prince Ange Emmanuel DEDY</h1>
+                                </div>
+                            </div>
+        
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100063590381760&mibextid=LQQJ4d" target="_blank">
+                        
+                            <div class="cercle1 ">
+                                <img src="assets/images/facebook.png"  width="25px" height="25px" alt="">
+                                <div class="facp">
+                                    <img src="assets/images/facebook.png" style="filter: invert();" width="25px" height="25px" alt="" id="imges2">
+
+
+                                    <h1 style="color: white;font-size: 0.9rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">2DY XBOSS</h1>
+                                </div>
+                                
+                            </div>
+                            
+                        </a>
+                        <a href="https://github.com/2DYXBOSS/" target="_blank">
+                            <div class="cercle2">
+                          
+                                <i class="bi bi-github fs-5 imgz2" style="color: black;"></i>
+                                
+                                <div class="facp2">
+                                    <i class="bi bi-github imgz" id="imges2" style="color: white!important;"></i>
+                                    <h1 style="color: white;font-size: 0.9rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">2DYXBOSS</h1>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="mailto:2dyxboss225@gmail.com" >
+                            <div class="cercle3">
+                                <img src="assets/images/google.png"  width="25px" height="25px"  alt="">
+                            
+                                <div class="facp3">
+                                    <img src="assets/images/google.png" style="filter: invert();" width="25px" height="25px" alt="" id="imges2">
+                                    <h1 style="color: white;font-size: 0.9rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">2dyxboss225gmail.com</h1>
+                                    
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                     
+            
+                    <div class="textesacc">
+                        <h1 style="color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;" id="ggedsn">SOFTWARE</h1>
+                        <h1 style="color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center;" id="ggedsn1" >D E V E L O P E R</h1>
+                        <p style="color: rgba(255, 255, 255, 0.362);text-align: center;padding-top: 10px;" id="ggedsn2">CREATEUR DE SITES WEB !</p>
+                        
+                        
+                    </div>
+                    <div class="monImge">
+                        <div class="cercleImage">
+                            <img src="assets/images/IMG_9745-removebg-preview.png" alt="" id="imageAcceuil">
+                        </div>
+                    </div>
+                    <div class="maDescr">
+                        <h1 style="color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="softre">SOFTWARE</h1>
+                        <h1 style="color: white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 3rem;" id="softre1">D E V E L O P E R</h1>
+                        <p style="color: rgba(255, 255, 255, 0.362);font-size: 2.5rem;" id="softre2">CREATEUR DE SITES WEB !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="telecharger">
+    
+            <img src="assets/images/cv.png" width="25px" height="25px" style="filter: invert();" alt="">
+            <div class="telecharger1">
+                <img src="assets/images/cv.png" style="filter: invert();" width="25px" height="25px" alt="" >
+                <h1 style="color: white;font-size: 0.9rem;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Télécharger mon CV</h1>
+            </div>
+        </a>
+    </section>
+    
+    </div>
+   
+</div>
+
+

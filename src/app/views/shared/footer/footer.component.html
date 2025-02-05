@@ -1,0 +1,252 @@
+<!--contact start -->
+
+
+<div style="width: 100%;display: flex;justify-content: center;background-color: black;padding-bottom: 100px;flex-direction: column;" >
+    <div class="container">
+    <section id="Contacts" style="background-color: black;padding-bottom: 20px;padding-top: 50px;">
+        <h1 style="text-align: center;font-weight: bolder;padding-top: 50px;color: white;"
+        class="Grostexte" >contactez-nous</h1>
+    <p style="text-align: center;color: rgb(97, 97, 97);">Lorem, ipsum dolor sit amet consectetur adipisicing am.</p>
+
+        <div class="testimonial_area section_gap_bottom">
+            <div class="container">
+
+
+               
+
+                <div >
+                 
+                      <footer class=" py-5">
+                        <div class="container">
+                          <div class="row justify-content-between">
+                            <!-- Section Informations -->
+                            <div class="col-md-12 col-lg-3 ">
+                              <h5>À propos de nous</h5>
+                              <p style="color: white;">
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                templates , 
+                              </p>
+                              <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-custom mt-4 "><img height="30px" width="25px"  src="assets/images/git.png" alt="Illustration" ></a>
+                                <a href="#" class="btn btn-custom mt-4 "><img height="20px" width="20px"  src="assets/images/linkedin.png" alt="Illustration" ></a>
+                                <a href="#" class="btn btn-custom mt-4 "><img height="20px" width="20px"  src="assets/images/google.png" alt="Illustration" ></a>
+                                <a href="#" class="btn btn-custom mt-4 "><img height="20px" width="20px"  src="assets/images/facebook.png" alt="Illustration" ></a>
+        
+                            </div>
+                            
+                            </div>
+                            <div class="col-md-12 col-lg-3 recaps">
+                              <h5>Nos services</h5>
+                              <p style="color: white;">
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                                templates , 
+                              </p>
+                              
+                            <p style="color: white;" class="mt-4" >
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                sug
+                                Découvrez notre plateforme et contactez-nous pour toute question ou
+                                suggestion.
+                              </p>
+                            </div>
+                      
+                            <!-- Section Formulaire de contact -->
+
+
+                            
+                            <form class="col-md-12 col-lg-6 recaps row" style="height: 0;min-height: 350px;" [formGroup]="contactForm" (ngSubmit)="onSubmit()" >
+                              <div class="col-md-12 col-lg-6 mb-2">
+                                <input
+                                type="text"
+                                id="name"
+                                class="form-control "
+                                formControlName="name"
+                                placeholder="Votre nom"
+                              />
+                              <div
+                                *ngIf="
+                                  contactForm.get('name')?.invalid &&
+                                  contactForm.get('name')?.touched
+                                "
+                                class="text-danger"
+                              >
+                                Le nom est obligatoire.
+                              </div>
+                              </div>
+                              <div class="col-md-12 col-lg-6 mb-2" >
+                                <input
+                                        type="email"
+                                        id="email"
+                                        class="form-control border-radius-0"
+                                        formControlName="email"
+                                        placeholder="Votre email"
+                                      />
+                                      <div
+                                        *ngIf="
+                                          contactForm.get('email')?.invalid &&
+                                          contactForm.get('email')?.touched
+                                        "
+                                        class="text-danger"
+                                      >
+                                        Un email valide est requis.
+                                      </div>
+                              </div>
+                              <div class="col-md-12 col-lg-12 mb-2" >
+                                <input
+                                type="text"
+                                id="subject"
+                                class="form-control border-radius-0 "
+                                formControlName="subject"
+                                placeholder="Sujet du message"
+                              />
+                              <div
+                                *ngIf="
+                                  contactForm.get('subject')?.invalid &&
+                                  contactForm.get('subject')?.touched
+                                "
+                                class="text-danger"
+                              >
+                                Le sujet est obligatoire.
+                              </div>
+                              </div>
+                              <div class="col-md-12 col-lg-12 mb-2">
+                                <textarea
+                                id="message"
+                                rows="5"
+                                class="form-control border-radius-0"
+                                formControlName="message"
+                                placeholder="Votre message"
+                                style="height: 130px;resize: none;"
+                              ></textarea>
+                              <div
+                                *ngIf="
+                                  contactForm.get('message')?.invalid &&
+                                  contactForm.get('message')?.touched
+                                "
+                                class="text-danger"
+                              >
+                                Le message est obligatoire.
+
+                              </div>
+                              </div>
+                              <div class="col-md-12 col-lg-12 mb-2 " >
+                                <button
+                                type="submit"
+                                class="btn w-100 btn-custom text-white border-white form-control py-3"  
+
+                              >
+                                Envoyer le message
+                              </button>
+                              
+                              </div>
+                            
+                            </form>
+
+                          </div>
+                        </div>
+                      </footer>
+                      
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <!--footer-copyright start-->
+<footer id="footer-copyright" class="footer-copyright recapss" style="background-color: black;margin-top: 0;">
+    <div class="container">
+        <div class="hm-footer-copyright text-center">
+            <p style="color: white;">
+                &copy; copyright 2025 . designed and developped by <a href="#" style="color: white;"> <span style="color: rgb(97, 97, 97)"> |</span> Prince Ange Emmanuel DEDY</a>
+            </p><!--/p-->
+        </div><!--/.text-center-->
+    </div><!--/.container-->
+
+    <div id="scroll-Top">
+        <div class="return-to-top">
+            <i class="fa fa-angle-up " id="scroll-top"></i>
+        </div>
+
+    </div><!--/.scroll-Top-->
+
+</footer><!--/.footer-copyright-->
+</section>
+
+</div>
+<div class="animationslide">
+  <marquee behavior="" direction="" id="marref">
+  <div class="vraislide">
+      
+      
+      
+    <div class="werty" id="marref3"><img src="assets/images/python.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/javascript.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/htmld.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/csss.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/angular.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/tailwindcss.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/bootstrap.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/django.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/flask.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/wordpress.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/figma.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/sqlitee.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/bd.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/github.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/worde.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/excele.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/poxer.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/typescrr.png" width="40px" height="40px" alt="" ></div>
+
+      <div class="werty"><img src="assets/images/linkegdgd.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty"><img src="assets/images/gdhjddaa.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty"><img src="assets/images/youygdgd.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty"><img src="assets/images/facgdhd.png" width="40px" height="40px" alt="" ></div>
+
+      
+      <div class="werty" id="marref3"><img src="assets/images/python.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/javascript.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/htmld.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/csss.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/angular.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/tailwindcss.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/bootstrap.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/django.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/flask.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/wordpress.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/figma.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/sqlitee.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/bd.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/github.png" style="filter: invert();" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/worde.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/excele.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/poxer.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty" id="marref3"><img src="assets/images/typescrr.png" width="40px" height="40px" alt="" ></div>
+
+      <div class="werty"><img src="assets/images/linkegdgd.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty"><img src="assets/images/gdhjddaa.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty"><img src="assets/images/youygdgd.png" width="40px" height="40px" alt="" ></div>
+      <div class="werty"><img src="assets/images/facgdhd.png" width="40px" height="40px" alt="" ></div>
+  </div>
+  </marquee>
+  <!-- <div class="vraislide1">
+
+  </div> -->
+</div>
+</div>
+

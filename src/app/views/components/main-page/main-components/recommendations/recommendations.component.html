@@ -1,0 +1,79 @@
+
+<div style="width: 100%;display: flex;justify-content: center;background-color: rgba(247, 246, 248, 0.296);" >
+    <div class="container">
+    <section class="container"id="recommendations" style="height: 600px;padding-top: 50px;">
+
+        <h1 style="text-align: center;font-weight: bolder;padding-top: 50px;"
+        class="Grostexte">Recommendations</h1>
+    <p style="text-align: center;color: rgb(97, 97, 97);">Lorem, ipsum dolor sit amet consectetur adipisicing am.</p>
+
+        <div class="testimonial_area section_gap_bottom" >
+            <div class="container">
+                
+                <div id="testimonialCarousel" style="margin-top: 100px;" class="carousel slide " data-bs-ride="carousel" >
+                    <div class="carousel-inner">
+                      <div
+                        *ngFor="let testimonial of testimonials; let i = index"
+                        class="carousel-item"
+                        [ngClass]="{ active: i === 0 }"
+
+                      >
+                        <div class="card shadow-sm mx-auto"  style="max-width: 600px;border: 1px solid rgba(0, 0, 0, 0.05);box-shadow: none!important;">
+                          <div class="card-body text-center">
+                            <p >
+                              <i class="bi bi-quote" style="color: #18d26e;"></i>
+                              {{ testimonial.message }}
+
+                            </p>
+                            <div class="d-flex align-items-center justify-content-center mt-3">
+                            
+                             
+                              <h6 class="title d-flex justify-content-start align-items-start gap-2">
+                                <img [src]="'assets/images/' + testimonial.image "   class="rounded-circle border"
+                                width="50"
+                                height="50"
+                                style="max-height: 50px;"  alt="">
+                                <div style="padding: 0;">
+
+                                    <span class="text-start">{{ testimonial.name }}
+                                    </span><br>
+                                    <h3 style="font-size: 0.5rem;color: #6e6e6e;padding-top: 4px;padding-left: 13px;">{{ testimonial.title }}
+                                    </h3>
+                                </div>
+
+
+                            </h6>
+                            
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev "
+                      type="button"
+                      data-bs-target="#testimonialCarousel"
+                      data-bs-slide="prev"
+                      style="color: black!important;background-color: none;height: 100;width: 30px;"
+                    >
+                      <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                      <span class="visually-hidden" >Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next text-dark"
+                      type="button"
+                      data-bs-target="#testimonialCarousel"
+                      data-bs-slide="next"
+                     style="color: black!important;background-color: none;height: 100%;width: 30px;"
+                    >
+                      <span class="carousel-control-next-icon text-danger" aria-hidden="true" ></span>
+                      <span class="visually-hidden text-danger" >Next</span>
+                    </button>
+                  </div>
+                  
+               
+            </div>
+        </div>
+    </section>
+</div>
+</div>

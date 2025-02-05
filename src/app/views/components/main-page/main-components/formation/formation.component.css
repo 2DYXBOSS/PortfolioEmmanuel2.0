@@ -1,0 +1,11 @@
+.promo-box {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 3rem 2.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+    transition: all 0.2s ease-in-out;
+}
+.promo-center {
+    text-align: center;
+}

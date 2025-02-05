@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+/* Navigation bar */
+.nav-link {
+    color: white!important;
+    text-transform: capitalize!important;
+}
+.elems , .elems p {
+    color: white!important;
+
+}
+.elems a {
+    color: white!important;
+    border: 1px solid white;
+    
+
+}
+
+.navbars{
+    /* position: fixed!important;
+    top: 0;
+    right: 0;
+    z-index: 99999999999999;
+    left: 0; */
+    /* background-color: red; */
+    position: fixed!important;
+    top: 0;
+    right: 0;
+    z-index: 99999999999999;
+    left: 0;
+  
+}
+.elems a:hover {
+    color: black!important;
+    border: 1px solid blue;
+    background-color: blue;
+  
+
+
+}
+.elems a img{
+    filter: invert();
+}
+.elems a:hover img{
+    filter: none;
+}
+
+.navbar-scrolled {
+    background-color: black !important;
+    color: white!important;
+    transition: background-color 0.3s ease;
+  }
+  
+.navbar {
+transition: background-color 0.3s ease;
+}
+  
+.navbar-brand {
+    font-weight: bold;
+    color: white!important;
+    z-index: 99999999999999999999999!important;;
+}
+.navbar-nav a {
+    color: gray;
+    font-size: 14px;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+.navbar-nav a:hover {
+    color: black;
+}
+/* Header Section */
+.header {
+    padding: 80px 0;
+    padding-top: 100px;
+}
+
+@media ( max-width: 700px) {
+    .header {
+        padding-top: 100px;
+    }
+    
+}
+@media ( max-width: 990px) {
+    #navbarNav{
+        position: fixed!important;
+        top: 60px!important;
+        left: 0!important;
+        background-color: black;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .cercle2:hover .imgz2 {
+        color: white!important;
+    }
+    .cercle4:hover .imgz2{
+        filter: invert();
+    }
+    
+}
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.header p {
+    color: #555;
+    font-size: 16px;
+    max-width: 700px;
+}
+.btn-custom {
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+.btn-custom:hover {
+    background-color: black;
+    color: white;
+}
+/* Illustration */
+.illustration {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+/* Style pour le lien actif */
+.nav-link.active {
+    color: aliceblue!important; /* Couleur du texte */
+    transition: all 0.3s ease; /* Animation fluide */
+    border: 1px solid white;
+    font-weight: bold!important;
+
+  }
+  
+  /* Style pour la barre de navigation lorsque la page est défilée */
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Couleur de fond semi-transparente */
+    transition: background-color 0.3s ease;
+  }
+
+
+  @media (max-width: 1000px) {
+    .nav-link.active {
+        padding-left: 20px!important;
+    
+      }
+  }
+  
