@@ -8,6 +8,18 @@
 /*==================================
 font-family: 'Poppins', sans-serif;
 ==================================== */
+
+/* col-sm-* → Petits écrans (≥ 576px)
+
+col-md-* → Moyens écrans (≥ 768px)
+
+col-lg-* → Grands écrans (≥ 992px)
+
+col-xl-* → Très grands écrans (≥ 1200px)
+
+col-xxl-* → Écrans extra larges (≥ 1400px) */
+
+
 @media (max-width: 990px) {
     #navbarNav{
        
@@ -1072,6 +1084,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         display: block;
         height: 170px;
         width: 100%;
+        justify-content: start;
         /* background-color: red; */
         z-index: 999999;
     }
@@ -1102,7 +1115,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         }
     }
     #ggedsn2 {
-        font-size: 1.3rem;
+        font-size: 0.7rem;
         animation: ggedsn2 10s ease-in-out;
     }
     @keyframes ggedsn2 {
@@ -1564,7 +1577,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
     #imageAcceuil {
         position: absolute;
-        top: -90px;
+        top: -40px;
         width: 270px;
     }
     .maDescr {
@@ -1631,6 +1644,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
             transition: 2s all ;
         }
     }
+    /* #softre3 {
+        position: absolute;
+
+        padding-top: 250px;
+        top: 20vh;
+        left: -70px;
+
+    }
+    @keyframes softre3 {
+        10%{
+            transform: translateX(-1000px);
+        }
+        85%{
+            transform: translateX(0px);
+            transition: 2s all ;
+        }
+    } */
 
   
     
@@ -1641,6 +1671,105 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 
 @media (min-width : 1000px) {
+  
+    
+    #anime2 {
+        animation: anime2 10s ease-out;
+        position: relative;
+    }
+    @keyframes anime2 {
+        0%{
+            transform: translateX(1000px);
+        }
+        15%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
+    #anime3 {
+        animation: anime3 10s ease-out;
+        position: relative;
+    }
+    @keyframes anime3 {
+        0%{
+            transform: translateX(1000px);
+        }
+        18%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
+    #anime4 {
+        animation: anime4 10s ease-out;
+        position: relative;
+    }
+    @keyframes anime4 {
+        0%{
+            transform: translateX(1000px);
+        }
+        21%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
+    #anime5 {
+        animation: anime5 10s ease-out;
+        position: relative;
+    }
+    @keyframes anime5 {
+        0%{
+            transform: translateX(1000px);
+        }
+        24%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
+    #anime6 {
+        animation: anime6 10s ease-out;
+        position: relative;
+    }
+    @keyframes anime6 {
+        0%{
+            transform: translateX(1000px);
+        }
+        27%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
+    #anime7 {
+        animation: anime7 10s ease-out;
+        position: relative;
+    }
+    @keyframes anime7 {
+        0%{
+            transform: translateX(1000px);
+        }
+        30%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
+    #anime8 {
+        animation: anime8 10s ease-out;
+        position: relative;
+    }
+    @keyframes anime8 {
+        0%{
+            transform: translateX(1000px);
+        }
+        33%{
+            transform: translateX(0px);
+            transition: 4ms ;
+        }
+    }
+ 
+
+
+
+
+
      body {
         overflow-x: hidden;
         width: 100%;
@@ -2103,7 +2232,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
     #imageAcceuil {
         position: absolute;
-        top: -180px;
+        top: -65px;
         width: 500px;
     }
     .maDescr {
@@ -2189,6 +2318,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
             transition: 2s all ;
         }
     }
+    /* #softre3 {
+        position: absolute;
+
+        padding-top: 250px;
+        top: 20vh;
+        left: -70px;
+        animation: softre3 10s ease-out;
+    }
+    @keyframes softre3 {
+        0%{
+            transform: translateX(7000px);
+        }
+        85%{
+            transform: translateX(0px);
+            transition: 2s all ;
+        }
+    } */
 
 
 

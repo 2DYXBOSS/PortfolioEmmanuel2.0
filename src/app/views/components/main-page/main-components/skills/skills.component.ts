@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
 
-  projecturl = "http://localhost:4200/portfolio"
+  projecturl = "https://emmanueldedy.onrender.com/"
+
+
+  constructor() { }
+
+  recupUrl(url: string) {
+    this.projecturl = url
+  }
+
+
+  
 }

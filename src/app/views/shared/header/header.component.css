@@ -63,7 +63,8 @@ transition: background-color 0.3s ease;
     z-index: 99999999999999999999999!important;;
 }
 .navbar-nav a {
-    color: gray;
+    color: #808080;
+
     font-size: 14px;
     margin-left: 15px;
     text-transform: uppercase;
@@ -99,6 +100,10 @@ transition: background-color 0.3s ease;
     .cercle4:hover .imgz2{
         filter: invert();
     }
+    .textesacc h1 {
+        margin-bottom: 0!important;
+    }
+    
     
 }
 .header h1 {

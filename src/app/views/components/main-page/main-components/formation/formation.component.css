@@ -9,3 +9,8 @@
 .promo-center {
     text-align: center;
 }
+
+.elds .box-description {
+    font-size: 0.7rem!important;
+    color: black;
+}
