@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
+import { AdminRoutingComponent } from './admin-routing/admin-routing.component';
 
 
 
@@ -14,17 +15,20 @@ import { SafeUrlPipe } from './pipes/safe-url.pipe';
     HeaderComponent,
     FooterComponent,
     SafeUrlPipe,
+    AdminRoutingComponent,
 
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
-    SafeUrlPipe
+    SafeUrlPipe,
+    AdminRoutingComponent
   ]
 })
 export class SharedModule { }

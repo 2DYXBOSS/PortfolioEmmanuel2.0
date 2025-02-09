@@ -1548,13 +1548,44 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         justify-content: center;
 
     }
+    .certif {
+        position: absolute;
+       
+        right: 43px;
+        top: 32vh;
+        height: 50px;
+        width: 50px;
+        animation: certif 10s ease-out;
+    } 
+
+    @keyframes certif {
+        0%{
+            height: 0px;
+            width: 0px;
+        }
+        70%{
+            height: 0px;
+            width: 0px;
+        }
+
+        85%{
+            height: 200px;
+            width: 200px;
+        }
+        95%{
+            height: 50px;
+            width: 50px;
+
+            transition: -30ms all;
+        }
+    }
     .cercleImage {
         height: 270px;
         width: 270px;
         background-color: rgba(248, 248, 248, 0.164);
         border-radius: 84% 34% 95% 57%;
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
         position: absolute;
         /* top: 20vh; */
         /* margin-top: 100px; */
@@ -2204,7 +2235,39 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         display: flex;
         align-items: center;
         justify-content: center;
+     
 
+    }
+    .certif {
+        position: absolute;
+       
+        right: 43px;
+        top: 37vh;
+        height: 75px;
+        width: 75px;
+        animation: certif 10s ease-out;
+    } 
+
+    @keyframes certif {
+        0%{
+            height: 0px;
+            width: 0px;
+        }
+        70%{
+            height: 0px;
+            width: 0px;
+        }
+
+        85%{
+            height: 300px;
+            width: 300px;
+        }
+        95%{
+            height: 75px;
+            width: 75px;
+            /* transform: translateX(0px); */
+            transition: -30ms all;
+        }
     }
     .cercleImage {
         height: 450px;
@@ -2212,7 +2275,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         background-color: rgba(248, 248, 248, 0.164);
         border-radius: 84% 34% 95% 57%;
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
         position: absolute;
         top: 20vh;
         margin-top: 100px;
