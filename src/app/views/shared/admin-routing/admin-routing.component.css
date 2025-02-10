@@ -33,9 +33,6 @@ a{
     font-weight: 600;
     color: #012970;
   }
-
-
-
   /*--------------------------------------------------------------
 # Override some default Bootstrap stylings
 --------------------------------------------------------------*/
@@ -115,10 +112,6 @@ a{
       opacity: 0;
     }
   }
-
-  
-
-  
   /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -155,17 +148,8 @@ a{
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
     background-color: #fff;
     padding-left: 20px;
-    /* Toggle Sidebar Button */
-    /* Search Bar */
   }
-  
-  .header .toggle-sidebar-btn {
-    font-size: 32px;
-    padding-left: 10px;
-    cursor: pointer;
-    color: #012970;
-  }
-  
+
   .header .search-bar {
     min-width: 360px;
     padding: 0 20px;
@@ -266,38 +250,7 @@ a{
     padding: 3px 6px;
   }
   
-  .header-nav .notifications {
-    inset: 8px -15px auto auto !important;
-  }
-  
-  .header-nav .notifications .notification-item {
-    display: flex;
-    align-items: center;
-    padding: 15px 10px;
-    transition: 0.3s;
-  }
-  
-  .header-nav .notifications .notification-item i {
-    margin: 0 20px 0 10px;
-    font-size: 24px;
-  }
-  
-  .header-nav .notifications .notification-item h4 {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
-  
-  .header-nav .notifications .notification-item p {
-    font-size: 13px;
-    margin-bottom: 3px;
-    color: #919191;
-  }
-  
-  .header-nav .notifications .notification-item:hover {
-    background-color: #f6f9ff;
-  }
-  
+
   .header-nav .messages {
     inset: 8px -15px auto auto !important;
   }
@@ -409,24 +362,7 @@ a{
       margin-left: 300px;
     }
   }
-  
-  @media (max-width: 1199px) {
-    .toggle-sidebar .sidebar {
-      left: 0;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-  
-    .toggle-sidebar #main,
-    .toggle-sidebar #footer {
-      margin-left: 0;
-    }
-  
-    .toggle-sidebar .sidebar {
-      left: -300px;
-    }
-  }
+
   
   .sidebar-nav {
     padding: 0;
@@ -545,14 +481,9 @@ a{
   .sidebar-nav .nav-content a.active {
     color: white;
   }
-  
   .sidebar-nav .nav-content a.active i {
     background-color: white;
   }
-  
-
-
-    
 .navbar-brand {
     font-weight: bold;
 
