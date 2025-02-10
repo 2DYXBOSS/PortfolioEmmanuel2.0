@@ -1553,8 +1553,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
        
         right: 43px;
         top: 32vh;
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
         animation: certif 10s ease-out;
     } 
 
@@ -1573,8 +1573,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
             width: 200px;
         }
         95%{
-            height: 50px;
-            width: 50px;
+            height: 30px;
+            width: 30px;
 
             transition: -30ms all;
         }
